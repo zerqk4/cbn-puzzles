@@ -1,3 +1,15 @@
 {
-  "puzzles": []
+  "puzzles": [
+    {
+      "id": "bordercollie",
+      "title": "Bordercollie",
+      "difficulty": "Medium",
+      "gridWidth": 67,
+      "gridHeight": 67,
+      "paletteSize": 14,
+      "data": "puzzles/bordercollie/puzzle.json",
+      "thumb": null,
+      "price": ""
+    }
+  ]
 }
