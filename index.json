@@ -21,6 +21,17 @@
       "data": "puzzles/cat/puzzle.json",
       "thumb": "puzzles/cat/thumb.png",
       "price": ""
+    },
+    {
+      "id": "catstrawberry",
+      "title": "Catstrawberry",
+      "difficulty": "Hard",
+      "gridWidth": 128,
+      "gridHeight": 128,
+      "paletteSize": 39,
+      "data": "puzzles/catstrawberry/puzzle.json",
+      "thumb": "puzzles/catstrawberry/thumb.png",
+      "price": ""
     }
   ]
 }
