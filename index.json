@@ -12,17 +12,6 @@
       "price": ""
     },
     {
-      "id": "cat",
-      "title": "Cat",
-      "difficulty": "Hard",
-      "gridWidth": 480,
-      "gridHeight": 480,
-      "paletteSize": 3540,
-      "data": "puzzles/cat/puzzle.json",
-      "thumb": "puzzles/cat/thumb.png",
-      "price": ""
-    },
-    {
       "id": "catstrawberry",
       "title": "Catstrawberry",
       "difficulty": "Hard",
