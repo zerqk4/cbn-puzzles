@@ -1,0 +1,25 @@
+name: Purge jsDelivr cache
+
+# Run on every push to main branch
+on:
+  push:
+    branches: [main]
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Purge index + all puzzle files from jsDelivr
+        run: |
+          # Purge the root index file
+          curl -sS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/index.json" || true
+          # Purge every JSON / PNG inside puzzles/
+          find puzzles -type f \( -name "*.json" -o -name "*.png" \) | while read -r file; do
+            url="https://purge.jsdelivr.net/gh/${{ github.repository }}@main/${file}"
+            echo "Purging: $url"
+            curl -sS "$url" || true
+          done
+          echo "✓ Purge complete"
