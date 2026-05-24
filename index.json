@@ -1,6 +1,17 @@
 {
   "puzzles": [
     {
+      "id": "border_collie_002_1024px",
+      "title": "Border Collie 002 1024Px",
+      "difficulty": "Hard",
+      "gridWidth": 1024,
+      "gridHeight": 1024,
+      "paletteSize": 37843,
+      "data": "puzzles/border_collie_002_1024px/puzzle.json",
+      "thumb": null,
+      "price": ""
+    },
+    {
       "id": "bordercollie",
       "title": "Bordercollie",
       "difficulty": "Medium",
