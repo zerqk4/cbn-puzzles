@@ -10,6 +10,17 @@
       "data": "puzzles/bordercollie/puzzle.json",
       "thumb": "puzzles/bordercollie/thumb.png",
       "price": ""
+    },
+    {
+      "id": "cat",
+      "title": "Cat",
+      "difficulty": "Hard",
+      "gridWidth": 480,
+      "gridHeight": 480,
+      "paletteSize": 3540,
+      "data": "puzzles/cat/puzzle.json",
+      "thumb": "puzzles/cat/thumb.png",
+      "price": ""
     }
   ]
 }
