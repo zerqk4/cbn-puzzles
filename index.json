@@ -10,17 +10,6 @@
       "data": "puzzles/bordercollie/puzzle.json",
       "thumb": "puzzles/bordercollie/thumb.png",
       "price": ""
-    },
-    {
-      "id": "unfake-pixel-art",
-      "title": "Unfake-Pixel-Art",
-      "difficulty": "Hard",
-      "gridWidth": 350,
-      "gridHeight": 500,
-      "paletteSize": 19,
-      "data": "puzzles/unfake-pixel-art/puzzle.json",
-      "thumb": "puzzles/unfake-pixel-art/thumb.png",
-      "price": ""
     }
   ]
 }
